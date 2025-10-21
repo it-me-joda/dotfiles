@@ -1,0 +1,3 @@
+# This is my current desktop setup
+
+After a long time on the Fedora train (and every spin), I decided to try my hand with Arch. To ease the transition, I chose EndeavourOS. I also chose Hyprland as my new Window Manager. I've been enjoying it a TON. The upfront cost (a couple days at first and several small tangets here and there) to get everything exactly the way you want it pays huge dividends in productivity and better user experience. Currently, I use VSCodium as my main editor but I still have an old nvim setup handy as well as a Helix config (please give us plugin support already and I promise it'll be my main). If I can think of anything else or make any changes, I will try to add it here.

@@ -1,0 +1,106 @@
+@import "mocha.css";
+
+* {
+  border: none;
+  font-family: "Monoid Nerd Font, monospace";
+  color: #fff;
+  font-size: 20px;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.modules-left {
+  margin: 6px;
+}
+
+.modules-center {
+  margin: 6px;
+}
+
+.modules-right {
+  margin: 6px;
+}
+
+#workspaces {
+  border-radius: 10px;
+  background-color: @surface0;
+}
+
+#workspaces button {
+  padding: 6px;
+  margin: 0;
+  background-color: @surface0;
+}
+
+#workspaces button.active {
+  background-color: @surface2;
+}
+
+.mediaplayer {
+  background-color: @surface0;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 16px;
+}
+
+#custom-notification,
+#cpu,
+#memory,
+#battery,
+#clock,
+#tray,
+.gpu,
+.vpn-active,
+.vpn-inactive,
+.volume {
+  background-color: @surface0;
+  padding: 0 10px;
+}
+
+.vpn-active {
+  color: @green;
+}
+
+.vpn-inactive {
+  color: @red;
+}
+
+#custom-notification {
+  border-radius: 10px 0 0 10px;
+}
+
+#cpu {
+  color: @yellow;
+}
+
+#memory {
+  color: @blue;
+}
+
+.gpu {
+  color: @green;
+}
+
+#battery { 
+  color: @green;
+}
+
+#clock {
+  border-radius: 0 10px 10px 0;
+}
+
+#tray { 
+  margin: 0 6px;
+  border-radius: 10px;
+}
+
+#tray * {
+  padding: 2px;
+}
+ 
+#tray menu {
+  background-color: @surface0;
+  border-radius: 10px;
+}

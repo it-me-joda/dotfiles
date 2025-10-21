@@ -1,0 +1,204 @@
+{
+  "explorer.incrementalNaming": "smart",
+  "editor.fontFamily": "'FiraMono Nerd Font Mono', monospace",
+  "window.zoomLevel": 1,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "rust-analyzer.check.command": "clippy",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.fontFamily": "'FiraMono Nerd Font Mono', monospace",
+  "catppuccin.italicKeywords": false,
+  "catppuccin.italicComments": false,
+  "catppuccin.accentColor": "sapphire",
+  "catppuccin.bracketMode": "dimmed",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "scss.format.enable": false,
+  "css.format.enable": false,
+  "html.suggest.html5": true,
+  "git.autofetch": true,
+  "window.menuBarVisibility": "hidden",
+  "snyk.advanced.cliPath": "/home/quinn/.local/share/snyk-ls/snyk-linux",
+  "snyk.folderConfigs": [
+    {
+      "folderPath": "/home/quinn/projects/sys-config",
+      "baseBranch": "main",
+      "localBranches": ["main"]
+    }
+  ],
+  "snyk.trustedFolders": [
+    "/home/quinn/projects/shmup",
+    "/home/quinn/projects/sys-config",
+    "/home/quinn/projects/go-roller",
+    "/home/quinn/projects/game-master-emulator",
+    "/home/quinn/projects/gopher-alpaca",
+    "/home/quinn/projects/go-portfolio",
+    "/home/quinn/projects/android-test",
+    "/home/quinn/projects/godot-go",
+    "/home/quinn/projects/godot-rust",
+    "/home/quinn/Downloads/tinytales",
+    "/home/quinn/projects/heist",
+    "/home/quinn/projects/bevy_android_maybe",
+    "/home/quinn/projects/The-Trash-Can-Website",
+    "/home/quinn/projects/private-api",
+    "/home/quinn/projects/jodainteractive.com",
+    "/home/quinn/projects/networking",
+    "/home/quinn/projects/advent-of-code-2024",
+    "/home/quinn/projects/city_sim",
+    "/home/quinn/projects/clockery",
+    "/home/quinn/projects/cybil",
+    "/home/quinn/projects/ebitengine_sandbox",
+    "/home/quinn/projects/credit-counter",
+    "/home/quinn/projects/url-shortener",
+    "/home/quinn/penpot",
+    "/home/quinn/projects/story_site",
+    "/home/quinn/.config/r2modman",
+    "/home/quinn/projects/project",
+    "/home/quinn/projects/asyncstorage",
+    "/home/quinn/projects/ts-url-shortener",
+    "/home/quinn/projects/vsc-request-client",
+    "/home/quinn/projects/godot-city-sim",
+    "/home/quinn/projects/cdk-custom-lambda",
+    "/home/quinn/projects/deepseek-cdk-test",
+    "/home/quinn/projects/notes",
+    "/home/quinn/projects/aws-cloudfront-s3-static-site",
+    "/home/quinn/projects/remark-test",
+    "/home/quinn/projects/blogsite",
+    "/home/quinn/projects/rust-gpu-test",
+    "/home/quinn/projects/esp32",
+    "/home/quinn/projects/esp-test",
+    "/home/quinn/projects/c-sandbox",
+    "/home/quinn/projects/cms-ds",
+    "/home/quinn/projects/gamelibs",
+    "/home/quinn/projects/newell/ts-invoicer",
+    "/home/quinn/projects/bevy_graphics",
+    "/home/quinn/projects/email-validator",
+    "/home/quinn/projects/rust-egui-app",
+    "/home/quinn/projects/terrain-generator",
+    "/home/quinn/projects/merchant_game",
+    "/home/quinn/projects/go-sandbox",
+    "/home/quinn/projects/open-source/bevy",
+    "/home/quinn/projects/newell",
+    "/home/quinn/projects/rust-sandbox",
+    "/home/quinn/projects/project-euler/rust",
+    "/home/quinn/Downloads",
+    "/home/quinn/projects/demo-test",
+    "/home/quinn/projects/open-source/bevy-website",
+    "/home/quinn/projects/lodash-is-loadass",
+    "/home/quinn/projects/bevy_enhanced_input/bevy_enhanced_input",
+    "/home/quinn/projects/leafwing-input-manager",
+    "/home/quinn/projects/bevy_sandbox",
+    "/home/quinn/projects/throwaway/multiapp",
+    "/home/quinn/projects/ldg-jam-3",
+    "/home/quinn/projects/dol/degrees-of-lewdity",
+    "/home/quinn/projects/bevy_cli_generated",
+    "/home/quinn/projects/space-journey"
+  ],
+  "snyk.yesWelcomeNotification": false,
+  "sonarlint.rules": {
+    "go:S1821": {
+      "level": "on"
+    },
+    "go:S131": {
+      "level": "on"
+    },
+    "go:S1151": {
+      "level": "on"
+    },
+    "go:S126": {
+      "level": "on"
+    },
+    "go:S134": {
+      "level": "on"
+    },
+    "go:S1067": {
+      "level": "on"
+    },
+    "go:S104": {
+      "level": "on"
+    },
+    "go:S138": {
+      "level": "on"
+    },
+    "go:S103": {
+      "level": "on"
+    },
+    "go:S1314": {
+      "level": "on"
+    },
+    "go:S122": {
+      "level": "on"
+    },
+    "go:S1451": {
+      "level": "off"
+    },
+    "go:S1145": {
+      "level": "on"
+    },
+    "typescript:S1848": {
+      "level": "off"
+    }
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "sonarlint.connectedMode.connections.sonarqube": [
+    {
+      "serverUrl": "http://localhost:9000",
+      "connectionId": "http-localhost-9000"
+    }
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "jodainteractive",
+      "connectionId": "jodainteractive"
+    }
+  ],
+  "workbench.productIconTheme": "bongocat",
+  "sonarlint.focusOnNewCode": true,
+  "rust-analyzer.cachePriming.enable": true,
+  "rust-analyzer.cachePriming.numThreads": "physical",
+  "rust-analyzer.numThreads": "physical",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.secondarySideBar.showLabels": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSaveMode": "file"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sonarlint.automaticAnalysis": false
+}

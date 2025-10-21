@@ -1,0 +1,33 @@
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 16
+
+[font.normal]
+family = "FiraMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+style = "Bold"
+
+[font.italic]
+style = "Italic"
+
+[font.bold_italic]
+style = "BoldItalic"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "Full"
+startup_mode = "Maximized"
+
+[keyboard]
+bindings = [
+    { key = "ArrowLeft", mods = "Control", action = "SemanticLeft" },
+    { key = "ArrowRight", mods = "Control", action = "SemanticRight" }
+]
